@@ -1,7 +1,7 @@
 import { createStore,combineReducers ,applyMiddleware} from "redux";
-import { reducerCounter } from "./reducer";
+import { reducerCounter } from "./reducers/reducer";
 import {thunk} from "redux-thunk";
-import { ReducerProduct } from "./ReducerProduct";
+import { ReducerProduct } from "./reducers/ReducerProduct";
 
 const appReducer= combineReducers({
     myCounter:reducerCounter,

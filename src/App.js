@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux'
 // import { INCREMENT } from './type/type'
-import { inc,myinc } from './CounterAction'
-import { addProduct, fetchProduct } from './actionProduc';
+import { inc,myinc } from './redux/actions/CounterAction'
+import { addProduct, fetchProduct } from './redux/actions/actionProduc';
 import { useEffect } from 'react';
 function App() {
 

@@ -1,4 +1,4 @@
-import { INCERMENT } from "./TypeCounter" 
+import { INCERMENT } from "../../TypeCounter" 
 
 
 // export const reducerCounter =(state ={ counter: 1 },action)=>{
